@@ -4,8 +4,8 @@ import { Warehouse, Truck, Package, BarChart3, Shield, Headphones } from 'lucide
 import warehouseImg from '@assets/telecomunicaciones.jpg';
 import truckImg from '@assets/MG.jpg';
 import packageImg from '@assets/electricidad.jpg';
-import barChart3Img from '@assets/photo-1551288049-bebda4e38f71.jpg';
-import shieldImg from '@assets/photo-1563013544-824ae1b704d3.jpg';
+import barChart3Img from '@assets/datacenter.jpg';
+import shieldImg from '@assets/AAC.jpg';
 import headphonesImg from '@assets/photo-1486312338219-ce68d2c6f44d.jpg';
 
 const features = [
@@ -29,22 +29,17 @@ const features = [
   },
   {
     icon: BarChart3,
-    title: 'Real-Time Analytics',
-    description: 'Complete supply chain visibility with advanced tracking and reporting.',
+    title: 'Soluciones para Datacenter',
+    description: 'Remodelacion, Mantenimiento preventivo y correctivo en unidad de respaldo de energía inmediata (UPS)',
     image: barChart3Img,
   },
   {
     icon: Shield,
-    title: 'Secure Operations',
-    description: 'Industry-leading security protocols protecting your valuable assets.',
+    title: 'Aires Acondicionados',
+    description: 'Instalacion, Mantenimiento preventivo y correctivo de unidades de aires acondicionados de todo tipo.',
     image: shieldImg,
   },
-  {
-    icon: Headphones,
-    title: '24/7 Support',
-    description: 'Dedicated teams available around the clock to ensure seamless operations.',
-    image: headphonesImg,
-  },
+
 ];
 
 export default function FeatureShowcase() {
