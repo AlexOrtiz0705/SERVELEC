@@ -7,12 +7,12 @@ export const SITE = {
 } as const;
 
 export const NAVIGATION = [
-  { name: 'Home', href: '/' },
-  { name: 'Capabilities', href: '/capabilities' },
-  { name: 'Use Cases', href: '/use-cases' },
-  { name: 'Facilities', href: '/facilities' },
-  { name: 'Request Quote', href: '/rfq' },
-  { name: 'Documentation', href: '/documentation' },
+  { name: 'Inicio', href: '/' },
+  { name: 'Capacidades', href: '/capabilities' },
+  { name: 'Casos de Uso', href: '/use-cases' },
+  { name: 'Instalaciones', href: '/facilities' },
+  { name: 'Solicitar Cotizacion', href: '/rfq' },
+  { name: 'Documentacion', href: '/documentation' },
 ] as const;
 
 export const SOCIAL_LINKS = {

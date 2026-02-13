@@ -1,9 +1,9 @@
 import { motion } from 'motion/react';
 import { Warehouse, Truck, Package, BarChart3, Shield, Headphones } from 'lucide-react';
 
-import warehouseImg from '@assets/photo-1553413077-190dd305871c.jpg';
-import truckImg from '@assets/photo-1601584115197-04ecc0da31d7.jpg';
-import packageImg from '@assets/photo-1581091226825-a6a2a5aee158.jpg';
+import warehouseImg from '@assets/telecomunicaciones.jpg';
+import truckImg from '@assets/MG.jpg';
+import packageImg from '@assets/electricidad.jpg';
 import barChart3Img from '@assets/photo-1551288049-bebda4e38f71.jpg';
 import shieldImg from '@assets/photo-1563013544-824ae1b704d3.jpg';
 import headphonesImg from '@assets/photo-1486312338219-ce68d2c6f44d.jpg';
@@ -11,20 +11,20 @@ import headphonesImg from '@assets/photo-1486312338219-ce68d2c6f44d.jpg';
 const features = [
   {
     icon: Warehouse,
-    title: 'Advanced Warehousing',
-    description: 'Climate-controlled facilities with automated inventory systems and 24/7 security.',
+    title: 'Telecomunicaciones',
+    description: 'Tecnología emergente que facilita el contacto y aumenta sus capacidades digitales.',
     image: warehouseImg,
   },
   {
     icon: Truck,
-    title: 'Fast Transportation',
-    description: 'Multi-modal logistics network ensuring rapid delivery across all destinations.',
+    title: 'Electromecánica Industrial:',
+    description: 'Instalación y mantenimiento de motores generadores eléctricos de todas las marcas comerciales en Centroamérica.',
     image: truckImg,
   },
   {
     icon: Package,
-    title: 'Quality Manufacturing',
-    description: 'ISO-certified production with precision engineering and quality control.',
+    title: 'Extension de circuitos electricos:',
+    description: 'Electrificación en Baja, mediana y Alta Tensión',
     image: packageImg,
   },
   {
